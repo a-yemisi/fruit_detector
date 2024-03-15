@@ -18,6 +18,6 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path("image-recognizer/", include("recognizer.urls")),
+    path("", include("recognizer.urls")),
     path("admin/", admin.site.urls),
 ]
